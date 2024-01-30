@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="wrapper bg-image">
+        <div class="mask d-flex align-items-center gradient-custom-3">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div id="form-box" class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                        <div class="logo">
+                            <img decoding="async"
+                            src="data:image/jpeg;base64,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"
+                            alt="JMAN Group Logo" 
+                            class="img-fluid"
+                            style="height: 75px;
+                            width: 150px;"
+                            >
+                        </div>
+                        <form class="bg-white shadow p-3" >
+                            <h3 class="text-dark fw-bolder fs-4 mb-2">Registration Form</h3>
+                            <div class="fw-normal text-muted mb-2">
+                                Already have an account? 
+                                <a href="index.html" class="text-primary fw-bold text-decoration-none">Sign in here</a>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control input-sm" id="floatingFirstName" placeholder="John">
+                                <label for="floatingFirstName">First Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control input-sm" id="floatingLastName" placeholder="Doe">
+                                <label for="floatingLastName">Last Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control input-sm" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control input-sm" id="floatingPassword" placeholder="Password@123">
+                                <label for="floatingPassword">Password</label>
+                                <span class="password-info mt-2">Use 8 or more characters with a mix of letters, numbers &
+                                    symbols.</span>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control input-sm" id="floatingPassword" placeholder="Password@123">
+                                <label for="floatingPassword">Confirm Password</label>
+                            </div>
+                            <div class="form-check d-flex align-items-center">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" checked>
+                                <label class="form-check-label ms-2" for="gridCheck">
+                                    I Agree <a href="#">Terms and conditions</a>.
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
